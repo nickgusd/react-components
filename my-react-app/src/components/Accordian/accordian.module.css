@@ -1,0 +1,39 @@
+.container {
+    padding: 14px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px 0 #20212447
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body {
+    padding: 14px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header > p {
+    margin: 0 auto;
+    padding: 14px;
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon {
+    cursor: pointer;
+    user-select: none;
+}
