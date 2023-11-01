@@ -5,7 +5,15 @@
     margin-top: 40px;
     justify-content: space-between;
     border-radius: 12px;
-    box-shadow: 0 1px 6px 0 #20212447
+    box-shadow: 0 1px 6px 0 #20212447;
+    cursor: pointer;
+    overflow: hidden;
+    transition: min-height 0.2s ease; 
+    min-height: 50px; /* Set the initial max-height */
+}
+
+.expanded {
+    min-height: 300px;
 }
 
 .header {
@@ -16,6 +24,7 @@
 .body {
     padding: 14px;
 }
+
 
 .flex {
     display: flex;
@@ -34,6 +43,5 @@
 }
 
 .icon {
-    cursor: pointer;
     user-select: none;
 }
