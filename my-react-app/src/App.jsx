@@ -17,26 +17,26 @@ const data = [
   {
     id: 1,
     title: "Item 1",
-    text: "This is the first item in the list.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat leo a orci luctus, non posuere odio tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras euismod turpis at tincidunt vestibulum. Fusce vel bibendum elit. Quisque quis est in libero interdum vestibulum. Proin auctor consectetur augue, vel volutpat metus aliquet in. Curabitur suscipit, dui eget auctor luctus, purus sem laoreet erat, sed vehicula tortor mi nec purus. Sed venenatis dui in bibendum scelerisque. Phasellus in scelerisque tortor. Donec id quam eu elit laoreet condimentum.",
   },
   {
     id: 2,
     title: "Item 2",
-    text: "Here's the second item with some text.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat leo a orci luctus, non posuere odio tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras euismod turpis at tincidunt vestibulum. Fusce vel bibendum elit. Quisque quis est in libero interdum vestibulum. Proin auctor consectetur augue, vel volutpat metus aliquet in. Curabitur suscipit, dui eget auctor luctus, purus sem laoreet erat, sed vehicula tortor mi nec purus. Sed venenatis dui in bibendum scelerisque. Phasellus in scelerisque tortor. Donec id quam eu elit laoreet condimentum.",
   },
   {
     id: 3,
     title: "Item 3",
-    text: "The third item has its own description.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat leo a orci luctus, non posuere odio tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras euismod turpis at tincidunt vestibulum. Fusce vel bibendum elit. Quisque quis est in libero interdum vestibulum. Proin auctor consectetur augue, vel volutpat metus aliquet in. Curabitur suscipit, dui eget auctor luctus, purus sem laoreet erat, sed vehicula tortor mi nec purus. Sed venenatis dui in bibendum scelerisque. Phasellus in scelerisque tortor. Donec id quam eu elit laoreet condimentum.",
   },
   {
     id: 4,
     title: "Item 4",
-    text: "Number four comes with its unique content.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat leo a orci luctus, non posuere odio tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras euismod turpis at tincidunt vestibulum. Fusce vel bibendum elit. Quisque quis est in libero interdum vestibulum. Proin auctor consectetur augue, vel volutpat metus aliquet in. Curabitur suscipit, dui eget auctor luctus, purus sem laoreet erat, sed vehicula tortor mi nec purus. Sed venenatis dui in bibendum scelerisque. Phasellus in scelerisque tortor. Donec id quam eu elit laoreet condimentum.",
   },
   {
     id: 5,
     title: "Item 5",
-    text: "This is the fifth item, complete with a description.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ",
   },
 ];
