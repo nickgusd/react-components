@@ -1,17 +1,40 @@
 import Accordian from "./components/Accordian/Accordian";
+import ToggleButton from "./components/ToggleButton/ToggleButton";
+import ToggleGroup from "./components/ToggleGroup/ToggleGroup";
+import { FiAlignCenter } from "react-icons/fi";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      {data.map((item) => (
+      <ToggleGroup options={icons} />
+      {/* {data.map((item) => (
         <Accordian title={item.title} text={item.text} />
-      ))}
+      ))} */}
     </div>
   );
 }
 
 export default App;
+
+const icons = [
+  {
+    item: "icon1",
+    icon: <FiAlignCenter />,
+  },
+  {
+    item: "icon2",
+    icon: <FiAlignCenter />,
+  },
+  {
+    item: "icon3",
+    icon: <FiAlignCenter />,
+  },
+  {
+    item: "icon4",
+    icon: <FiAlignCenter />,
+  },
+];
 
 const data = [
   {
