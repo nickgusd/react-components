@@ -1,0 +1,26 @@
+.button_wrapper {
+    padding: 15px;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.54);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+.button_wrapper:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.button_wrapper > svg {
+    width: 36px;
+    height: 36px;
+}
