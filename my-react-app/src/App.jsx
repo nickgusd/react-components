@@ -1,14 +1,24 @@
 import Accordian from "./components/Accordian/Accordian";
 import ToggleButton from "./components/ToggleButton/ToggleButton";
 import ToggleGroup from "./components/ToggleGroup/ToggleGroup";
+import Modal from "./components/Modal/Modal";
 import { FiAlignCenter } from "react-icons/fi";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <ToggleGroup options={icons} />
-      {/* {data.map((item) => (
+      <Modal
+        title="This is the Title"
+        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum erat quis magna suscipit, nec rhoncus nunc feugiat. In hac habitasse platea dictumst. Sed venenatis tellus in diam volutpat, id vehicula mauris cursus. Aenean eleifend bibendum lacus, sit amet varius justo gravida ac. Curabitur non turpis eu nunc vehicula accumsan. Nullam in justo sed ligula lacinia ultricies. Sed eleifend in libero nec ultricies. Proin tincidunt, quam nec hendrerit vehicula, ipsum augue pharetra orci, a posuere metus tortor nec tortor. Sed tristique dolor at sapien ullamcorper, id lacinia eros cursus. Etiam at dapibus mauris. Vivamus ut bibendum elit. Sed vitae ex eu sapien euismod auctor. Phasellus a consectetur odio."
+        footer={
+          <>
+            <p>Footer</p>
+          </>
+        }
+      />
+      {/* <ToggleGroup options={icons} />
+      {data.map((item) => (
         <Accordian title={item.title} text={item.text} />
       ))} */}
     </div>
