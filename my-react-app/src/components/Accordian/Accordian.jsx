@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
-import styles from "./accordian.module.css";
+import styles from "./Accordian.module.css";
 
 export default function Accordian({ title, text }) {
   const [isOpen, setIsOpen] = useState(false);

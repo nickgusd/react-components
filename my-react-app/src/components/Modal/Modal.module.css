@@ -1,0 +1,40 @@
+.container {
+    padding: 14px;
+    width: 500px;
+    min-height: 400px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.header {
+    padding: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header > svg {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: #9da19d;
+}
+
+.content_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    padding: 14px;
+}
+
+.body {
+    padding: 14px;
+}
+
+.footer {
+    padding: 14px;
+}
